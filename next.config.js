@@ -41,3 +41,8 @@ module.exports = withSentryConfig(
     automaticVercelMonitors: true,
   }
 );
+module.exports = {
+  images: {
+    domains: ['github.com'], // Allow GitHub avatar URLs
+  },
+};
